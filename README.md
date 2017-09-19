@@ -1,1 +1,1 @@
-This is a test
+This repository contains a bio, and interests of each member: Danielle, Michelle, and Claudia. The web pages are navigable and visually cohesive. Our web pages were created by HTML, CSS, Git and Trello.
