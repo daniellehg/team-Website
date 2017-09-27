@@ -5,14 +5,17 @@ h1 {
 
 p {
  color: black;
+    background-color: floralwhite;
 }
 
 body {
  font-family: Gill Sans, cursive;
- background-color : black
+    background-color: floralwhite;
+
 }
 ul {
     color: dodgerblue
+        background-color: floralwhite;
 }
 table {
     color:mediumpurple
