@@ -22,9 +22,11 @@
 
       var today = new Date();
       var lastday = new Date();
-    var hours = Math.floor((birthday.getTime() - today.getTime()) / 3600000);
+      var hours = Math.floor((birthday.getTime() - today.getTime()) / 3600000);
 
-
+      var today = new Date();
+      var lastday = new Date();
+      var minutes = Math.floor((birthday.getTime() - today.getTime()) / 60000);
 
 
 
