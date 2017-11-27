@@ -1,11 +1,9 @@
- <html> Today 's Date</html>
-<<<<<<< HEAD
+  Today's Date
+
 
  function dateMessage();
-=======
- script >
+
      function dateMessage();
->>>>>>> origin/master
  var today = new Date();
  var dayArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
  var day = today.getDay();
@@ -47,5 +45,3 @@
 var greetings = ['Howdy!', 'Greetings!', 'Hola!', 'Bonjour!', 'Shalom!', 'hi'];
         var rand = greetings[Math.floor(Math.random() * greetings.length)];
         document.write(rand);
->>>>>>> origin/master
->>>>>>> origin/master
