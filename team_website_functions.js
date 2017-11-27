@@ -11,3 +11,7 @@
 
  return (dayArray[day], ", ", MonthArray[month], " ", [date], ", ", [year]); <
  /script>
+
+ var greetings = ['Howdy!', 'Greetings!', 'Hola!', 'Bonjour!', 'Shalom!', 'hi'];
+        var rand = greetings[Math.floor(Math.random() * greetings.length)];
+        document.write(rand);
