@@ -1,4 +1,4 @@
- < h1 > Today 's Date</h1>
+ <html> Today 's Date</html>
 <<<<<<< HEAD
 
  function dateMessage();
@@ -14,7 +14,7 @@
  var date = today.getDate();
  var year = today.getFullYear();
 
- return MonthArray[month]
+ return dayArray[day]+ ", ", MonthArray[month]+ " ", [date]+ ", ", [year]
 
 <<<<<<< HEAD
  var greetings = ['Howdy!', 'Greetings!', 'Hola!', 'Bonjour!', 'Shalom!', 'hi'];
