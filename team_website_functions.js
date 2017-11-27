@@ -14,7 +14,7 @@
  var date = today.getDate();
  var year = today.getFullYear();
 
- return dayArray[day]+ ", ", MonthArray[month]+ " ", [date]+ ", ", [year]
+ return dayArray[day] + ", ", MonthArray[month] + " ", [date] + ", ", [year]
 
 <<<<<<< HEAD
  var greetings = ['Howdy!', 'Greetings!', 'Hola!', 'Bonjour!', 'Shalom!', 'hi'];
