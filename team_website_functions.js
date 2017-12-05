@@ -5,7 +5,8 @@
  function dateMessage();
 
 =======
- < h1 > Today 's Date</h1>
+ < h1 > Today 's Date</h1> <
+ script >
 >>>>>>> origin/master
      function dateMessage();
  var today = new Date();
@@ -16,13 +17,26 @@
  var date = today.getDate();
  var year = today.getFullYear();
 
- return dayArray[day], ", ", MonthArray[month], " ", [date], ", ", [year]
+ return dayArray[day], ", ", MonthArray[month], " ", [date], ", ", [year]; <
+ /script>
 
- function randomGreetings() {
-     var greetings = ['Howdy!', 'Greetings!', 'Hola!', 'Bonjour!', 'Shalom!', 'hi'];
-     var randomGreeting = greetings[Math.floor(Math.random() * greetings.length)];
-     return randomGreeting;
- }
+ function greeting(d) {
+    var hour = d.getHours();
+    var day = d.getDay();
+    if (day == 6 || day == 0) {
+        if(hour >) {
+            return "Go back to sleep! Its the weekend!";
+        } else if (day == 1) {
+            return "Ugh, its a Monday monring!";
+        } else {
+            return "Good morning!";
+        }
+    } else if (hour < 18) {
+        return "Good day.";
+    } else {
+        return "Good evening!";
+    }
+}
 <<<<<<< HEAD
      function birthdaycountdown(d) {
      var today = new Date ();
