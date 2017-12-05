@@ -30,10 +30,12 @@
      var today = new Date ();
      var bday = new Date(" ");
      bdate.setFullYear(today.getFullYear());
-    var untilBD = today-bdate;
+     var untilBD = today-bdate;
      if (untilBD < 0){
-         var c = new Date(year + 1, month, day)
+         var untilBD = new Date(year + 1, month, day)
          }
+         return
+     }
 
 
 
