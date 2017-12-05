@@ -9,8 +9,7 @@ var month = today.getMonth();
 var date = today.getDate();
 var year = today.getFullYear();
 
-return dayArray[day], ", ", MonthArray[month], " ", [date], ", ", [year]; <
-/script>
+return dayArray[day], ", ", MonthArray[month], " ", [date], ", ", [year];
 
 function greeting(d) {
     var hour = d.getHours();
