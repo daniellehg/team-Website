@@ -17,7 +17,7 @@
  var date = today.getDate();
  var year = today.getFullYear();
 
- return (dayArray[day], ", ", MonthArray[month], " ", [date], ", ", [year]); <
+ return dayArray[day], ", ", MonthArray[month], " ", [date], ", ", [year]; <
  /script>
 
  function randomGreetings() {
