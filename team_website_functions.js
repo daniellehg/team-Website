@@ -1,6 +1,6 @@
 
 
-function dateMessage();
+function dateMessage(){
 var today = new Date();
 var dayArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 var day = today.getDay();
@@ -14,6 +14,7 @@ if (date == 0 || date == 20 || date == 30) {
 }
 
 return dayArray[day], ", ", MonthArray[month], " ", [date], ", ", [year]
+}
 
 function randomGreetings() {
     var greetings = ['Howdy!', 'Greetings!', 'Hola!', 'Bonjour!', 'Shalom!', 'hi'];
