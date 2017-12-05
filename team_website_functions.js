@@ -5,8 +5,7 @@
  function dateMessage();
 
 =======
- < h1 > Today 's Date</h1> <
- script >
+ < h1 > Today 's Date</h1>
 >>>>>>> origin/master
      function dateMessage();
  var today = new Date();
