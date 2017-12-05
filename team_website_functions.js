@@ -1,13 +1,8 @@
-<<<<<<< HEAD
-  Today's Date
+
 
 
  function dateMessage();
 
-=======
- < h1 > Today 's Date</h1> <
- script >
->>>>>>> origin/master
      function dateMessage();
  var today = new Date();
  var dayArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
@@ -24,20 +19,9 @@
     var hour = d.getHours();
     var day = d.getDay();
     if (day == 6 || day == 0) {
-        if(hour >) {
-            return "Go back to sleep! Its the weekend!";
-        } else if (day == 1) {
-            return "Ugh, its a Monday monring!";
-        } else {
-            return "Good morning!";
-        }
-    } else if (hour < 18) {
-        return "Good day.";
-    } else {
-        return "Good evening!";
+
     }
 }
-<<<<<<< HEAD
      function birthdaycountdown(d) {
      var today = new Date ();
      var bday = new Date(" ");
@@ -47,11 +31,3 @@
          var c = new Date(year + 1, month, day)
          }
 
-
-
-=======
-var greetings = ['Howdy!', 'Greetings!', 'Hola!', 'Bonjour!', 'Shalom!', 'hi'];
-        var rand = greetings[Math.floor(Math.random() * greetings.length)];
-        document.write(rand);
-=======
->>>>>>> origin/master
