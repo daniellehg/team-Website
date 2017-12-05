@@ -26,21 +26,14 @@
      return randomGreeting;
  }
 <<<<<<< HEAD
-      var today= new Date();
-      var birthday = new Date();
-      var days = Math.floor((birthday.getTime() - today.getTime() / 86400000);
-
-      var today = new Date();
-      var lastday = new Date();
-      var hours = Math.floor((birthday.getTime() - today.getTime()) / 3600000);
-
-      var today = new Date();
-      var lastday = new Date();
-      var minutes = Math.floor((birthday.getTime() - today.getTime()) / 60000);
-
-
-
-
+     function birthdaycountdown(d) {
+     var today = new Date ();
+     var bday = new Date(" ");
+     bdate.setFullYear(today.getFullYear());
+    var untilBD = today-bdate;
+     if (untilBD < 0){
+         var c = new Date(year + 1, month, day)
+         }
 
 
 
