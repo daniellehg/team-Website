@@ -10,7 +10,7 @@ var date = today.getDate();
 var year = today.getFullYear();
 if (date == 0 || date == 20 || date == 30) {
 
-    DateSuffix = "st"
+    DateSuffix = "st";
 }
 
 return dayArray[day], ", ", MonthArray[month], " ", [date], ", ", [year]
