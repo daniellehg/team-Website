@@ -7,7 +7,7 @@ var MonthArray = ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'August
 var month = today.getMonth();
 var date = today.getDate();
 var year = today.getFullYear();
-
+if(date == )
 
 
 return dayArray[day], ", ", MonthArray[month], " ", [date], ", ", [year];
