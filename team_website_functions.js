@@ -32,6 +32,7 @@ function birthdaycountdown(d) {
     if (untilBD < 0) {
         var c = new Date(year + 1, month, day)
     }
+}
 =======
 
  function dateMessage();
