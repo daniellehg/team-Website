@@ -8,6 +8,8 @@ var month = today.getMonth();
 var date = today.getDate();
 var year = today.getFullYear();
 
+
+
 return dayArray[day], ", ", MonthArray[month], " ", [date], ", ", [year];
 }
 
@@ -36,3 +38,4 @@ function birthdaycountdown(d) {
     if (untilBD < 0) {
         var c = new Date(year + 1, month, day)
     }
+        }
