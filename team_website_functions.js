@@ -31,7 +31,7 @@ function greeting(d) {
             return "Good Day!";
         }
     }
-
+    if (hour > 17)
 }
 
 function birthdaycountdown(d) {
