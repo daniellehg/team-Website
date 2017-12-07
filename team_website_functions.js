@@ -14,11 +14,13 @@ if(date == 1 || date == 21 || date == 31 ){
     dateSuffix = "nd"
 } else if(date == 3 || date == 23){
     dateSuffix = "rd"
-} else
+} else{
+    dateSuffix = "th";
+}
 
 
 
-return dayArray[day], ", ", MonthArray[month], " ", [date], ", ", [year];
+return dayArray[day], ", ", MonthArray[month], " ", [date][dateSuffix], ", ", [year];
 }
 
 function greeting() {
