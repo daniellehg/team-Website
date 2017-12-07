@@ -37,7 +37,7 @@ function greeting() {
     }
     if (hour > 12 && hour < 17) {
         if (day == 6 || day == 0) {
-            return "Hope you are hving a great weekend!";
+            return "Hope you are having a great weekend!";
         } else {
             return "Good Day!";
         }
