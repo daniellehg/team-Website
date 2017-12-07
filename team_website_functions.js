@@ -16,8 +16,8 @@ if(date == )
 return dayArray[day], ", ", MonthArray[month], " ", [date], ", ", [year];
 }
 
-function greeting(d) {
-    var d = newDate
+function greeting() {
+    var d = new Date();
     var hour = d.getHours();
     var day = d.getDay();
     if (hour < 12) {
@@ -36,7 +36,13 @@ function greeting(d) {
             return "Good Day!";
         }
     }
-    if (hour > 17)
+    if (hour > 17) {
+        if (day == 0) {
+            return "Enjoy your evening...tomorrow is Monday!";
+        } else {
+            return "Good Evening!";
+        }
+    }
 }
 
 function birthdaycountdown(d) {
