@@ -1,23 +1,23 @@
 function dateMessage() {
-var today = new Date();
-var dayArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-var day = today.getDay();
-var MonthArray = ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-var month = today.getMonth();
-var date = today.getDate();
-var year = today.getFullYear();
+    var today = new Date();
+    var dayArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+    var day = today.getDay();
+    var MonthArray = ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    var month = today.getMonth();
+    var date = today.getDate();
+    var year = today.getFullYear();
 
-if (date == 1 || date == 21 || date == 31 ) {
-    dateSuffix = "st";
-} else if ( date == 2 || date == 22 ) {
-    dateSuffix = "nd"
-} else if (date == 3 || date == 23) {
-    dateSuffix = "rd"
-} else{
-    dateSuffix = "th";
-}
+    if (date == 1 || date == 21 || date == 31) {
+        dateSuffix = "st";
+    } else if (date == 2 || date == 22) {
+        dateSuffix = "nd"
+    } else if (date == 3 || date == 23) {
+        dateSuffix = "rd"
+    } else {
+        dateSuffix = "th";
+    }
 
-return dayArray[day] + ", " + MonthArray[month] + " " + [date] + [dateSuffix] + ", " + [year];
+    return dayArray[day] + ", " + MonthArray[month] + " " + [date] + [dateSuffix] + ", " + [year];
 }
 
 function greeting() {
@@ -30,7 +30,7 @@ function greeting() {
         } else if (day == 1) {
             return "Ugh, it's monday morning!";
         } else {
-            return "Good Morning!"
+            return "Good Morning!";
         }
     }
     if (hour > 12 && hour < 17) {
