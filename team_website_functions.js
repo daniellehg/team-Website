@@ -1,4 +1,4 @@
-function dateMessage(){
+function dateMessage() {
 var today = new Date();
 var dayArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 var day = today.getDay();
@@ -7,19 +7,17 @@ var month = today.getMonth();
 var date = today.getDate();
 var year = today.getFullYear();
 
-if(date == 1 || date == 21 || date == 31 ){
+if (date == 1 || date == 21 || date == 31 ) {
     dateSuffix = "st";
-} else if( date == 2 || date == 22 ){
+} else if ( date == 2 || date == 22 ) {
     dateSuffix = "nd"
-} else if(date == 3 || date == 23){
+} else if (date == 3 || date == 23) {
     dateSuffix = "rd"
 } else{
     dateSuffix = "th";
 }
 
-
-
-return dayArray[day], ", ", MonthArray[month], " ", [date][dateSuffix], ", ", [year];
+return dayArray[day] + ", " + MonthArray[month] + " " + [date] + [dateSuffix] + ", " + [year];
 }
 
 function greeting() {
