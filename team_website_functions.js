@@ -7,11 +7,16 @@ var MonthArray = ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'August
 var month = today.getMonth();
 var date = today.getDate();
 var year = today.getFullYear();
-<<<<<<< HEAD
-if(date == )
 
-=======
->>>>>>> origin/master
+if(date == 1 || date == 21 || date == 31 ){
+    dateSuffix = "st";
+} else if( date == 2 || date == 22 ){
+    dateSuffix = "nd"
+} else if(date == 3 || date == 23){
+    dateSuffix = "rd"
+} else
+
+
 
 return dayArray[day], ", ", MonthArray[month], " ", [date], ", ", [year];
 }
