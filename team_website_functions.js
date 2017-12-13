@@ -49,12 +49,29 @@ function greeting() {
     }
 }
 
-function birthdaycountdown(d) {
-    var today = new Date();
-    var bday = new Date(" ");
-    bdate.setFullYear(today.getFullYear());
-    var untilBD = today - bdate;
-    if (untilBD < 0) {
-        var c = new Date(year + 1, month, day)
+function addYear(d) {
+    var y = d.getFullYear();
+    y = y + 1;
+    d.setFullYear(y);
+    return d;
     }
-}
+
+function birthdayCountdown(b) {
+    var today = new Date();
+    var yearsold = Math.floor((today.getTime() - b.getTime()) / 31556900000);
+
+    b.setFullYear(today.getFullYear());
+
+    var untilBD = b - today;
+
+    var newbirthday = new Date();
+
+    if (untilBD < 0) {
+         newbirthday = addYear(b);
+     }
+
+
+                var days = Math.floor((newbirthday.getTime() - today.getTime()) / 86400000);
+
+    return "There are only" + days + "days until I turn " + yearsold + "years old!"
+    }
