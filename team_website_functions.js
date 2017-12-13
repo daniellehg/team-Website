@@ -73,5 +73,5 @@ function birthdayCountdown(b) {
 
                 var days = Math.floor((newbirthday.getTime() - today.getTime()) / 86400000);
 
-    return "There are only" + days + "days until I turn " + yearsold + "years old!"
+    return "There are only " + days + " days until I turn " + yearsold + " years old!"
     }
